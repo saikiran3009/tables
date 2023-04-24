@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/workspace-with-office-supplies_140725-23290.jpg?w=740&t=st=1682309995~exp=1682310595~hmac=fe9e26f1614acd9624b22049bd4adf60ec39e5e796691cdae1fe4fbde4e70a9b");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading{
+    margin: 10px 0px;
+}
+
+.bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.class{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#firstNumber, #secondNumber{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(238, 205, 144);
+    border-radius: 8px;
+
+}
+
+#userInput{
+    background-color: rgb(238, 205, 144);
+    height: 40px;
+    width: 60px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 2px solid black;;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    margin: 10px 4px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: arial;
+    background-color: rgb(226, 43, 43);
+}
+
+.result{
+    background-color: white;
+    font-size: 20px;
+}
+
+.score-card{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    height:  60px;
+    width: 130px;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+
+.score-heading{
+    padding-bottom: 4px;
+}
+
+.score{
+    padding-top: 10px;
+}
